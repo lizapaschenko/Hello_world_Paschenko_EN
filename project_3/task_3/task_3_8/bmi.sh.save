@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Вес (кг): " WEIGHT read -p "Рост (см): " HEIGHT BMI=$(( ($WEIGHT * 10000) / ($HEIGHT * $HEIGHT) )) echo "ИМТ: $BMI"
+
