@@ -1,0 +1,8 @@
+protein_mass_int = input ("Введите массу белков в продукте, г:")
+fat_mass_int = input ("Введите массу жиров в продукте, г:")
+carbs_mass_int = input ("Введите массу углеводов в продукте, г:")
+protein_mass = int (protein_mass_int)
+fat_mass = int (fat_mass_int)
+carbs_mass = int (carbs_mass_int)
+count = (protein_mass*4)+ (fat_mass*9)+ (carbs_mass*4)
+print (f"Общая калорийность продукта: {count}")
